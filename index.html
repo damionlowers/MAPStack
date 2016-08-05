@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <title>Test</title>
+  <script src="assets/js/static/angular.min.js" type="text/javascript"></script>
+  <script src="assets/js/static/angular-ui-router.js" type="text/javascript"></script>
+  <script src="assets/js/main.js" type="text/javascript"></script>
+</head>
+<body ng-controller="indexCtrl">
+{{message}}
+
+<div ng-repeat='con in content'>
+	<p>Firstname:{{" "+con.f_name}}</p>
+</div>
+</body>
+</html>
